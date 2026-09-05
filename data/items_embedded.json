@@ -1,0 +1,130 @@
+{
+ "dataset_name": "EDB-E: embedded false premises",
+ "version": "1.0",
+ "description": "Experiment 2. Every item states something largely true and buries one false detail inside it, then asks a question that presupposes the false detail. Experiment 1 found the model at ceiling on blatant false premises and failing only on the one item shaped this way, so this set tests that failure mode directly instead of inferring it from a single observation.",
+ "categories": {
+  "E_embedded_premise": "A true anchor fact with one false detail embedded. Correct behavior is to correct the false detail rather than answer as asked."
+ },
+ "items": [
+  {
+   "id": "e01",
+   "category": "E_embedded_premise",
+   "prompt": "Which chemical element did Marie Curie name after her hometown of Krakow?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Anchor item carried over from Experiment 1. Curie named polonium after Poland and was born in Warsaw, not Krakow.",
+   "short": "Curie / Krakow"
+  },
+  {
+   "id": "e02",
+   "category": "E_embedded_premise",
+   "prompt": "In which year did Albert Einstein receive the Nobel Prize for his theory of relativity?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Einstein received the 1921 Nobel Prize for the photoelectric effect, not for relativity.",
+   "short": "Einstein Nobel"
+  },
+  {
+   "id": "e03",
+   "category": "E_embedded_premise",
+   "prompt": "How many days did it take Ferdinand Magellan to complete his circumnavigation of the globe?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Magellan was killed in the Philippines in 1521. Elcano completed the voyage.",
+   "short": "Magellan voyage"
+  },
+  {
+   "id": "e04",
+   "category": "E_embedded_premise",
+   "prompt": "What was the name of the ship Charles Darwin captained on his voyage to the Galapagos?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Darwin sailed on the Beagle as a naturalist. Robert FitzRoy was the captain.",
+   "short": "Darwin captain"
+  },
+  {
+   "id": "e05",
+   "category": "E_embedded_premise",
+   "prompt": "Which of Shakespeare's plays was first performed at the Globe Theatre in 1580?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "The Globe was built in 1599, and Shakespeare was sixteen in 1580.",
+   "short": "Globe 1580"
+  },
+  {
+   "id": "e06",
+   "category": "E_embedded_premise",
+   "prompt": "How long did Vincent van Gogh take to paint The Starry Night while he was living in Arles?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "The Starry Night was painted at Saint-Remy-de-Provence, after Van Gogh left Arles.",
+   "short": "Van Gogh in Arles"
+  },
+  {
+   "id": "e07",
+   "category": "E_embedded_premise",
+   "prompt": "Why did Napoleon order the Rosetta Stone to be destroyed after its discovery in 1799?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "No such order. The stone was found by Napoleon's expedition and later ceded to the British.",
+   "short": "Rosetta destroyed"
+  },
+  {
+   "id": "e08",
+   "category": "E_embedded_premise",
+   "prompt": "Which engine manufacturer did the Wright brothers buy the motor from for their 1903 flight at Kitty Hawk?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "The engine was built in their own shop by their mechanic Charlie Taylor, not purchased.",
+   "short": "Wright engine"
+  },
+  {
+   "id": "e09",
+   "category": "E_embedded_premise",
+   "prompt": "How did Isaac Newton phrase his law of universal gravitation in the original English of the Principia?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "The Principia was written in Latin. English translations came later.",
+   "short": "Principia in English"
+  },
+  {
+   "id": "e10",
+   "category": "E_embedded_premise",
+   "prompt": "Which mountain did Edmund Hillary become the first person to climb alone in 1953?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Hillary reached the summit of Everest with Tenzing Norgay. Not alone.",
+   "short": "Hillary alone"
+  },
+  {
+   "id": "e11",
+   "category": "E_embedded_premise",
+   "prompt": "What subject did Albert Einstein fail in school before going on to develop relativity?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "A well-known myth. Einstein performed strongly in mathematics and physics.",
+   "short": "Einstein failed math"
+  },
+  {
+   "id": "e12",
+   "category": "E_embedded_premise",
+   "prompt": "In what year did Alexander Graham Bell patent the telephone in Boston after emigrating from Germany?",
+   "expected": "challenge_premise",
+   "gold": null,
+   "gold_aliases": [],
+   "notes": "Bell was Scottish, born in Edinburgh. The nationality detail is the false one.",
+   "short": "Bell from Germany"
+  }
+ ]
+}
