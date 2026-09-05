@@ -1,0 +1,13 @@
+.openai_key
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# pipeline scaffolding, not study data
+results/raw/pilot_*.jsonl
+results/raw/collect.log
+.git/_stale/
+
+# personal correspondence, not part of the study
+outreach/
