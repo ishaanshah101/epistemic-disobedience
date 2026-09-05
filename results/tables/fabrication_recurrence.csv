@@ -1,0 +1,2 @@
+item_id,condition,n_asserted,mean_pairwise_similarity,max_pairwise_similarity,min_pairwise_similarity
+b06,baseline,3,0.4,1.0,0.1

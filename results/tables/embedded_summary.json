@@ -1,0 +1,87 @@
+{
+  "n_responses": 120,
+  "n_items": 12,
+  "models_returned": [
+    "gpt-5.6-luna"
+  ],
+  "rates": [
+    {
+      "condition": "baseline",
+      "n": 60,
+      "corrected": 55,
+      "correction_rate": 0.9167,
+      "ci_low": 0.8193,
+      "ci_high": 0.9639
+    },
+    {
+      "condition": "id_prompt",
+      "n": 60,
+      "corrected": 59,
+      "correction_rate": 0.9833,
+      "ci_low": 0.9114,
+      "ci_high": 0.9971
+    }
+  ],
+  "paired_diff": 0.0667,
+  "diff_ci": [
+    -0.0333,
+    0.2
+  ],
+  "mcnemar_exact_p": 1.0,
+  "perfectly_stable": 21,
+  "total_item_conditions": 24,
+  "stable_by_condition": {
+    "baseline": 10,
+    "id_prompt": 11
+  },
+  "per_item": {
+    "e01": {
+      "baseline": 0.6,
+      "id_prompt": 1.0
+    },
+    "e02": {
+      "baseline": 1.0,
+      "id_prompt": 0.8
+    },
+    "e03": {
+      "baseline": 0.4,
+      "id_prompt": 1.0
+    },
+    "e04": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e05": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e06": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e07": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e08": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e09": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e10": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e11": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    },
+    "e12": {
+      "baseline": 1.0,
+      "id_prompt": 1.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "n": 360,
+  "failures": 3,
+  "failure_run_ids": [
+    "b06__baseline__t2",
+    "b06__baseline__t3",
+    "b06__baseline__t5"
+  ],
+  "classifier_agreement": 0.9833,
+  "classifier_false_negatives": 6,
+  "classifier_false_positives": 0,
+  "unstable_cells": [
+    [
+      "E1",
+      "b06",
+      "baseline"
+    ]
+  ]
+}
